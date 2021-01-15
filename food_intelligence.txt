@@ -1,0 +1,119 @@
+Food and Beverages
+
+
+
+Aim of project
+1) Menu ingredients will attract customers
+2) Ingredients and Recipe ratio will taste better 
+
+1) Clasification for food taste 
+2) Text Summarization for food articles, Food reviews
+3) Chatbot for interation with customers with variations in taste
+
+question 5 items 
+
+Recipies option 
+
+Dataset 5 recipes
+LSTM model 
+structure query: food items used, recipe, inredients,    question , Answer
+100000 food articles with 100 categories  
+NER,topic modelling  to food relates 
+
+
+\\aaj 19
+
+Design 
+NLP Pyramid
+base to top
+Morphology-->form words,pos,tenses
+Sytax analysis --> realation of words object subject  
+Symantic--> Meaning
+
+NLTK--> Morphology,syntax
+Stanfo
+
+Its Interesting
+Goals:
+As eveyone know Food carries its own memory 
+What food doesnt matters but combinations of what, where , when we consume that for always there is combination of quantity  and ratios of ingredients, recipes contributions to tastes
+
+Target:
+
+Our clients, which was from various food industries, consumable 5 stars hotels.
+To develop better food reviews , customer attraction systems: Proportions of various recipes ,Interative Menus,Chatbots for interaction and better understanding consumer needs
+
+On basis of this Datasets were  
+We started getting Datasets from various with From clients we recieved some recipes,menus,Amazon food reviews, Food Articles From various  magazine            
+
+Data cleansing
+Extraction of food details using Lemmatization,Punctuation,NER techniques, Regular Expression, Menu contents in 1/2 cups, spoonfull, No of Word 1==one , 
+
+
+Dataset preparation   
+Summary for various food articles --build datasets
+
+goal : To predict the food on basis of taste,ingredients,recipes
+
+Features used no of orders, Ingredients quantity,recipe name, Taste
+
+contributions
+various quantities, Ratios of ingredients   
+
+Two types it was unstructured as well as structured
+ 
+ML Algorithms 
+Unstructured
+1) Kmeans : Classes defined Taste,popularity with regions. 
+2) Topic modelling : Prices
+
+Structered
+Features, Labels 
+
+NLP 
+1) Ngrams after Probabilistic Models (Conditional) <--- eg : Paneer  also it was identified data for sequence models, LSTM, 
+Chatbot we were designing Transformer
+
+2) we have demo 1st MVP(Client Representation),we showcased using Dashboards,Frontend pages semi workable models data 
+
+3) Then we started Decision Tree,Gradients Boosting, Adaboost, XG boost
+
+
+Decision tree: Models working Features used wrt data, Activation functions, loss functions, Adams Optimization   
+
+
+Callenges : 
+
+
+
+
+
+Questions
+Features selection : Using Dependency of various features (Pearson corelation)
+Word2vec: Skip gram and CBOW, TF-IDF
+
+
+
+ #################
+Food carries memory and energy by itself
+quantification of each every ingredients into recipes makes its incredible,delicious,mouthwatering, enjoyable
+
+creating trasprancy with customers and detailing reviews 
+1) Creating interative menus with specified recipes giving transperancy, reviews --1.5 to 2
+
+Combining food with increadients 
+combination of foods increadients or recipes create exceptional thought process
+
+in more generalize i can it can thought process for each food element that is been 
+ Morphology : 
+Vegetables
+
+Spices and Herbs
+Cereals and Pulses
+Meat
+Dairy Products
+Fruits
+Seafood
+Sugar and Sugar Products
+Nuts and Oilseeds
+
